@@ -1,0 +1,132 @@
+.firm-header{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0A9AE3;
+    color: white;
+    font-size: large
+}
+
+
+.table-customer{
+    height: 350px;
+    overflow: auto;
+    display: flex;
+    top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .table-customer-heading > th {
+    position: sticky;
+    top: 0;
+  }
+
+
+  .table-top{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .show-name{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+  }
+
+  .show-name > input{
+    margin-left: 10px;
+  }
+
+  .search-name {
+    margin-right: 10%;
+  }
+  .search-name > input{
+    padding: 10px;
+    border: 1px solid #ABA4A4;
+    border-radius: 4px;
+    width: 300px;
+  }
+
+  #customers {
+    border-collapse: collapse;
+    overflow: auto;
+    width: 100%;
+  
+  }
+  
+  #customers td, #customers th {
+    padding: 8px;
+    
+  }
+  
+    #customers input {
+      width: 90px;
+      height: 20px;
+      background-color:#36323237 ;
+      border: 0px solid;
+      text-align: center;
+    }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #d9d9d9;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #0A9AE3;
+    color: white;
+    
+  }
+  #customers tr > td {
+    text-align: center;
+    cursor: pointer;
+    
+  }
+
+  .csv, .pdf, .copy{
+    height: 50px;
+    width: 20px;
+    margin: 10px;
+  }
+
+  .logo-color{
+    background-color: #0A9AE3;
+    padding: 10px;
+    border-radius: 100px;
+    color: white;
+    font-size: xx-large;
+    margin-top: 50%;
+  }
+
+  button{
+    margin: 3px;
+    cursor: pointer;
+  }
+  .add{
+    background-color: white;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    
+  }
+
+  .update{
+    background-color: #0A9AE3;
+    border-radius: 4px;
+    border: #0A9AE3;
+    padding: 5px;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+  }
+
+  .delete{
+    background-color: #F91607;
+    border-radius: 4px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: white;
+  }
